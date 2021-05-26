@@ -969,7 +969,7 @@ a.hover-text--electric-violet-3:hover {
 .btn.btn--xxl {
   min-width: 260px;
   height: 60px;
-  border-radius: 5px;
+  border-radius: 60px;
 }
 
 .btn.btn--190 {
@@ -1105,7 +1105,7 @@ button:focus {
 .btn-check:checked + .btn-primary:focus,
 .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(217, 74, 29, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(29 110 217 / 50%);
 }
 
 .btn-primary:disabled, .btn-primary.disabled {
@@ -16770,3 +16770,7 @@ mark[data-aos="highlight-text"].aos-animate {
 }
 
 /*# sourceMappingURL=maps/main.css.map */
+
+.mr-2 {
+  margin-right: 5px;
+}
