@@ -8061,8 +8061,14 @@ ________________________________ */
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 25px;
-  box-shadow: 0 4px 65px rgba(249, 58, 112, 0.4);
+  background: #00eea0;
+  width: 144px;
+  color: #111;
+  text-transform: uppercase;
+  font-weight: 500;
+  /* box-shadow: 0px 0px 20px #00ffac; */
+  border: 1px solid #27ffb8;
+  font-size: 22px;
 }
 
 .widgets__single__content {
