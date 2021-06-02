@@ -6,7 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-primary: #ff5722;
+  --bs-primary: #15cda8;
   --bs-secondary: #5034fc;
   --bs-black: #000;
   --bs-white: #fff;
@@ -47,7 +47,7 @@
   --bs-lavender: #be79df;
   --bs-cod-gray: #161616;
   --bs-half-baked: #82c4c3;
-  --bs-primary: #ff5722;
+  --bs-primary: #15cda8;
   --bs-secondary: #5034fc;
   --bs-custom-color: #900;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -241,12 +241,12 @@ sup {
 }
 
 a {
-  color: #ff5722;
+  color: #15cda8;
   text-decoration: none;
 }
 
 a:hover {
-  color: #cc461b;
+  color: #2b59ff;
   text-decoration: none;
 }
 
@@ -2616,8 +2616,8 @@ textarea.form-control-lg {
 }
 
 .form-check-input[type="checkbox"]:indeterminate {
-  background-color: #ff5722;
-  border-color: #ff5722;
+  background-color: #15cda8;
+  border-color: #15cda8;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
 }
 
@@ -2706,7 +2706,7 @@ textarea.form-control-lg {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #ff5722;
+  background-color: #15cda8;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2739,7 +2739,7 @@ textarea.form-control-lg {
 .form-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #ff5722;
+  background-color: #15cda8;
   border: 0;
   border-radius: 1rem;
   -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3160,8 +3160,8 @@ fieldset:disabled .btn {
 
 .btn-primary {
   color: #000;
-  background-color: #ff5722;
-  border-color: #ff5722;
+  background-color: #15cda8;
+  border-color: #15cda8;
 }
 
 .btn-primary:hover {
@@ -3193,8 +3193,8 @@ fieldset:disabled .btn {
 
 .btn-primary:disabled, .btn-primary.disabled {
   color: #000;
-  background-color: #ff5722;
-  border-color: #ff5722;
+  background-color: #15cda8;
+  border-color: #15cda8;
 }
 
 .btn-secondary {
@@ -3276,14 +3276,14 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary {
-  color: #ff5722;
-  border-color: #ff5722;
+  color: #15cda8;
+  border-color: #15cda8;
 }
 
 .btn-outline-primary:hover {
   color: #000;
-  background-color: #ff5722;
-  border-color: #ff5722;
+  background-color: #15cda8;
+  border-color: #15cda8;
 }
 
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
@@ -3293,8 +3293,8 @@ fieldset:disabled .btn {
 .btn-check:checked + .btn-outline-primary,
 .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
   color: #000;
-  background-color: #ff5722;
-  border-color: #ff5722;
+  background-color: #15cda8;
+  border-color: #15cda8;
 }
 
 .btn-check:checked + .btn-outline-primary:focus,
@@ -3303,7 +3303,7 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
-  color: #ff5722;
+  color: #15cda8;
   background-color: transparent;
 }
 
@@ -3373,12 +3373,12 @@ fieldset:disabled .btn {
 
 .btn-link {
   font-weight: 400;
-  color: #ff5722;
+  color: #15cda8;
   text-decoration: none;
 }
 
 .btn-link:hover {
-  color: #cc461b;
+  color: #2b59ff;
   text-decoration: none;
 }
 
@@ -3724,7 +3724,7 @@ fieldset:disabled .btn {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #ff5722;
+  background-color: #15cda8;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -3769,7 +3769,7 @@ fieldset:disabled .btn {
 
 .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
   color: #fff;
-  background-color: #ff5722;
+  background-color: #15cda8;
 }
 
 .dropdown-menu-dark .dropdown-item.disabled, .dropdown-menu-dark .dropdown-item:disabled {
@@ -3968,7 +3968,7 @@ fieldset:disabled .btn {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #ff5722;
+  background-color: #15cda8;
 }
 
 .nav-fill > .nav-link,
@@ -4686,7 +4686,7 @@ fieldset:disabled .btn {
 .page-link {
   position: relative;
   display: block;
-  color: #ff5722;
+  color: #15cda8;
   background-color: #fff;
   border: 1px solid #dee2e6;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4700,14 +4700,14 @@ fieldset:disabled .btn {
 
 .page-link:hover {
   z-index: 2;
-  color: #cc461b;
+  color: #2b59ff;
   background-color: #e9ecef;
   border-color: #dee2e6;
 }
 
 .page-link:focus {
   z-index: 3;
-  color: #cc461b;
+  color: #2b59ff;
   background-color: #e9ecef;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(255, 87, 34, 0.25);
@@ -4720,8 +4720,8 @@ fieldset:disabled .btn {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #ff5722;
-  border-color: #ff5722;
+  background-color: #15cda8;
+  border-color: #15cda8;
 }
 
 .page-item.disabled .page-link {
@@ -4884,7 +4884,7 @@ fieldset:disabled .btn {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #ff5722;
+  background-color: #15cda8;
   transition: width 0.6s ease;
 }
 
@@ -4964,8 +4964,8 @@ fieldset:disabled .btn {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #ff5722;
-  border-color: #ff5722;
+  background-color: #15cda8;
+  border-color: #15cda8;
 }
 
 .list-group-item + .list-group-item {
@@ -6201,7 +6201,7 @@ fieldset:disabled .btn {
 }
 
 .link-primary {
-  color: #ff5722;
+  color: #15cda8;
 }
 
 .link-primary:hover, .link-primary:focus {
@@ -6595,7 +6595,7 @@ fieldset:disabled .btn {
 }
 
 .border-primary {
-  border-color: #ff5722 !important;
+  border-color: #15cda8 !important;
 }
 
 .border-secondary {
@@ -7493,7 +7493,7 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-  color: #ff5722 !important;
+  color: #15cda8 !important;
 }
 
 .text-secondary {

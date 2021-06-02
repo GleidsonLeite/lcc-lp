@@ -1033,6 +1033,7 @@ button:focus {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: #0abfbc !important;
 }
 
 .btn-link--2 {
@@ -16916,7 +16917,6 @@ mark[data-aos="highlight-text"].aos-animate {
     opacity:1;
   }
 
-  // Mobile/Tablets Screens (Abaixo de Telas Médias)
   @media (max-width: 768px) {
     .contato-form-area-form {
       padding: 0;
@@ -16924,4 +16924,17 @@ mark[data-aos="highlight-text"].aos-animate {
     .card-lais-tv:first-child {
       padding-top: 20px;
     }
+  }
+    .image-box img {
+      border-radius: 10px;
+          box-shadow: -3px 25px 50px rgb(23 3 48 / 12%);
+    }
+  .image-box {
+    cursor: pointer;
+        transition: all ease 0.4s;
+        padding: 2em;
+
+  }
+  .image-box:hover {
+    transform: scale(1.01);
   }
