@@ -269,3 +269,47 @@ $('.portfolio-menu').on('click', 'button', function() {
         filter: filterValue
     });
 });
+
+
+
+//jQuery for page scrolling feature - requires jQuery Easing plugin
+$(function() {
+
+    $('a.page-scroll[href*="#"]:not([href="#"])').on('click', function () {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: (target.offset().top -80)
+                }, 1200, "easeInOutExpo");
+                return false;
+            }
+        }
+    });
+
+});
+
+// direct browser to top right away
+if (window.location.hash)
+    scroll(0,0);
+// takes care of some browsers issue
+setTimeout(function(){scroll(0,0);},1);
+
+$(function(){
+//your current click function
+$('.scroll').on('click',function(e){
+    e.preventDefault();
+    $('html,body').animate({
+        scrollTop:$($(this).attr('href')).offset().top + 'px'
+    },1200,'easeInOutExpo');
+});
+
+// if we have anchor on the url (calling from other page)
+if(window.location.hash){
+    // smooth scroll to the anchor id
+    $('html,body').animate({
+        scrollTop:$(window.location.hash).offset().top -80
+      },2000,'swing');
+    }
+});
